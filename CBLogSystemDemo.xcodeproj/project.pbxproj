@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6D76681AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76531AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.m */; };
+		5D6D76691AB5AED0009B8225 /* GNUMLocationMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76551AB5AED0009B8225 /* GNUMLocationMake.m */; };
+		5D6D766A1AB5AED0009B8225 /* GNUMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76571AB5AED0009B8225 /* GNUMLog.m */; };
+		5D6D766B1AB5AED0009B8225 /* GNUMLogCotroller+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76591AB5AED0009B8225 /* GNUMLogCotroller+Utility.m */; };
+		5D6D766C1AB5AED0009B8225 /* GNUMLogCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D765B1AB5AED0009B8225 /* GNUMLogCotroller.m */; };
+		5D6D766D1AB5AED0009B8225 /* GNUMLogReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D765D1AB5AED0009B8225 /* GNUMLogReviewViewController.m */; };
+		5D6D766E1AB5AED0009B8225 /* GNUMLogStringImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D765F1AB5AED0009B8225 /* GNUMLogStringImp.m */; };
+		5D6D766F1AB5AED0009B8225 /* GNUMLogSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76611AB5AED0009B8225 /* GNUMLogSystem.m */; };
+		5D6D76701AB5AED0009B8225 /* GNUMLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76631AB5AED0009B8225 /* GNUMLogViewController.m */; };
+		5D6D76711AB5AED0009B8225 /* GNUMTeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76651AB5AED0009B8225 /* GNUMTeeController.m */; };
+		5D6D76721AB5AED0009B8225 /* NSObject+GNUMReverseComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D76671AB5AED0009B8225 /* NSObject+GNUMReverseComparison.m */; };
+		5DE52D1A1AB3533F00FCC04A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D191AB3533F00FCC04A /* Foundation.framework */; };
+		5DE52D1C1AB3533F00FCC04A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D1B1AB3533F00FCC04A /* CoreGraphics.framework */; };
+		5DE52D1E1AB3533F00FCC04A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D1D1AB3533F00FCC04A /* UIKit.framework */; };
+		5DE52D241AB3533F00FCC04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DE52D221AB3533F00FCC04A /* InfoPlist.strings */; };
+		5DE52D261AB3533F00FCC04A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE52D251AB3533F00FCC04A /* main.m */; };
+		5DE52D2A1AB3533F00FCC04A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE52D291AB3533F00FCC04A /* AppDelegate.m */; };
+		5DE52D331AB3533F00FCC04A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE52D321AB3533F00FCC04A /* ViewController.m */; };
+		5DE52D351AB3533F00FCC04A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE52D341AB3533F00FCC04A /* Images.xcassets */; };
+		5DE52D3C1AB3534000FCC04A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D3B1AB3534000FCC04A /* XCTest.framework */; };
+		5DE52D3D1AB3534000FCC04A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D191AB3533F00FCC04A /* Foundation.framework */; };
+		5DE52D3E1AB3534000FCC04A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52D1D1AB3533F00FCC04A /* UIKit.framework */; };
+		5DE52D461AB3534000FCC04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DE52D441AB3534000FCC04A /* InfoPlist.strings */; };
+		5DE52D481AB3534000FCC04A /* CBLogSystemDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE52D471AB3534000FCC04A /* CBLogSystemDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE52D3F1AB3534000FCC04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE52D0E1AB3533F00FCC04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE52D151AB3533F00FCC04A;
+			remoteInfo = CBLogSystemDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D6D76511AB5AED0009B8225 /* GNUMFileOutputHandleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMFileOutputHandleProtocol.h; sourceTree = "<group>"; };
+		5D6D76521AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMInstanceFileOutputHandle.h; sourceTree = "<group>"; };
+		5D6D76531AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMInstanceFileOutputHandle.m; sourceTree = "<group>"; };
+		5D6D76541AB5AED0009B8225 /* GNUMLocationMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLocationMake.h; sourceTree = "<group>"; };
+		5D6D76551AB5AED0009B8225 /* GNUMLocationMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLocationMake.m; sourceTree = "<group>"; };
+		5D6D76561AB5AED0009B8225 /* GNUMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLog.h; sourceTree = "<group>"; };
+		5D6D76571AB5AED0009B8225 /* GNUMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLog.m; sourceTree = "<group>"; };
+		5D6D76581AB5AED0009B8225 /* GNUMLogCotroller+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GNUMLogCotroller+Utility.h"; sourceTree = "<group>"; };
+		5D6D76591AB5AED0009B8225 /* GNUMLogCotroller+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GNUMLogCotroller+Utility.m"; sourceTree = "<group>"; };
+		5D6D765A1AB5AED0009B8225 /* GNUMLogCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLogCotroller.h; sourceTree = "<group>"; };
+		5D6D765B1AB5AED0009B8225 /* GNUMLogCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLogCotroller.m; sourceTree = "<group>"; };
+		5D6D765C1AB5AED0009B8225 /* GNUMLogReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLogReviewViewController.h; sourceTree = "<group>"; };
+		5D6D765D1AB5AED0009B8225 /* GNUMLogReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLogReviewViewController.m; sourceTree = "<group>"; };
+		5D6D765E1AB5AED0009B8225 /* GNUMLogStringImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLogStringImp.h; sourceTree = "<group>"; };
+		5D6D765F1AB5AED0009B8225 /* GNUMLogStringImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLogStringImp.m; sourceTree = "<group>"; };
+		5D6D76601AB5AED0009B8225 /* GNUMLogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLogSystem.h; sourceTree = "<group>"; };
+		5D6D76611AB5AED0009B8225 /* GNUMLogSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLogSystem.m; sourceTree = "<group>"; };
+		5D6D76621AB5AED0009B8225 /* GNUMLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMLogViewController.h; sourceTree = "<group>"; };
+		5D6D76631AB5AED0009B8225 /* GNUMLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMLogViewController.m; sourceTree = "<group>"; };
+		5D6D76641AB5AED0009B8225 /* GNUMTeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNUMTeeController.h; sourceTree = "<group>"; };
+		5D6D76651AB5AED0009B8225 /* GNUMTeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNUMTeeController.m; sourceTree = "<group>"; };
+		5D6D76661AB5AED0009B8225 /* NSObject+GNUMReverseComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUMReverseComparison.h"; sourceTree = "<group>"; };
+		5D6D76671AB5AED0009B8225 /* NSObject+GNUMReverseComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUMReverseComparison.m"; sourceTree = "<group>"; };
+		5DE52D161AB3533F00FCC04A /* CBLogSystemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBLogSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE52D191AB3533F00FCC04A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DE52D1B1AB3533F00FCC04A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DE52D1D1AB3533F00FCC04A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DE52D211AB3533F00FCC04A /* CBLogSystemDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBLogSystemDemo-Info.plist"; sourceTree = "<group>"; };
+		5DE52D231AB3533F00FCC04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DE52D251AB3533F00FCC04A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DE52D271AB3533F00FCC04A /* CBLogSystemDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBLogSystemDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5DE52D281AB3533F00FCC04A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DE52D291AB3533F00FCC04A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DE52D311AB3533F00FCC04A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DE52D321AB3533F00FCC04A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DE52D341AB3533F00FCC04A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DE52D3A1AB3534000FCC04A /* CBLogSystemDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBLogSystemDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE52D3B1AB3534000FCC04A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5DE52D431AB3534000FCC04A /* CBLogSystemDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBLogSystemDemoTests-Info.plist"; sourceTree = "<group>"; };
+		5DE52D451AB3534000FCC04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DE52D471AB3534000FCC04A /* CBLogSystemDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBLogSystemDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE52D131AB3533F00FCC04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D1C1AB3533F00FCC04A /* CoreGraphics.framework in Frameworks */,
+				5DE52D1E1AB3533F00FCC04A /* UIKit.framework in Frameworks */,
+				5DE52D1A1AB3533F00FCC04A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE52D371AB3534000FCC04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D3C1AB3534000FCC04A /* XCTest.framework in Frameworks */,
+				5DE52D3E1AB3534000FCC04A /* UIKit.framework in Frameworks */,
+				5DE52D3D1AB3534000FCC04A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D6D76501AB5AED0009B8225 /* GNUMLogSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5D6D76511AB5AED0009B8225 /* GNUMFileOutputHandleProtocol.h */,
+				5D6D76521AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.h */,
+				5D6D76531AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.m */,
+				5D6D76541AB5AED0009B8225 /* GNUMLocationMake.h */,
+				5D6D76551AB5AED0009B8225 /* GNUMLocationMake.m */,
+				5D6D76561AB5AED0009B8225 /* GNUMLog.h */,
+				5D6D76571AB5AED0009B8225 /* GNUMLog.m */,
+				5D6D76581AB5AED0009B8225 /* GNUMLogCotroller+Utility.h */,
+				5D6D76591AB5AED0009B8225 /* GNUMLogCotroller+Utility.m */,
+				5D6D765A1AB5AED0009B8225 /* GNUMLogCotroller.h */,
+				5D6D765B1AB5AED0009B8225 /* GNUMLogCotroller.m */,
+				5D6D765C1AB5AED0009B8225 /* GNUMLogReviewViewController.h */,
+				5D6D765D1AB5AED0009B8225 /* GNUMLogReviewViewController.m */,
+				5D6D765E1AB5AED0009B8225 /* GNUMLogStringImp.h */,
+				5D6D765F1AB5AED0009B8225 /* GNUMLogStringImp.m */,
+				5D6D76601AB5AED0009B8225 /* GNUMLogSystem.h */,
+				5D6D76611AB5AED0009B8225 /* GNUMLogSystem.m */,
+				5D6D76621AB5AED0009B8225 /* GNUMLogViewController.h */,
+				5D6D76631AB5AED0009B8225 /* GNUMLogViewController.m */,
+				5D6D76641AB5AED0009B8225 /* GNUMTeeController.h */,
+				5D6D76651AB5AED0009B8225 /* GNUMTeeController.m */,
+				5D6D76661AB5AED0009B8225 /* NSObject+GNUMReverseComparison.h */,
+				5D6D76671AB5AED0009B8225 /* NSObject+GNUMReverseComparison.m */,
+			);
+			path = GNUMLogSystem;
+			sourceTree = "<group>";
+		};
+		5DE52D0D1AB3533F00FCC04A = {
+			isa = PBXGroup;
+			children = (
+				5DE52D1F1AB3533F00FCC04A /* CBLogSystemDemo */,
+				5DE52D411AB3534000FCC04A /* CBLogSystemDemoTests */,
+				5DE52D181AB3533F00FCC04A /* Frameworks */,
+				5DE52D171AB3533F00FCC04A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE52D171AB3533F00FCC04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52D161AB3533F00FCC04A /* CBLogSystemDemo.app */,
+				5DE52D3A1AB3534000FCC04A /* CBLogSystemDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE52D181AB3533F00FCC04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52D191AB3533F00FCC04A /* Foundation.framework */,
+				5DE52D1B1AB3533F00FCC04A /* CoreGraphics.framework */,
+				5DE52D1D1AB3533F00FCC04A /* UIKit.framework */,
+				5DE52D3B1AB3534000FCC04A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DE52D1F1AB3533F00FCC04A /* CBLogSystemDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5D6D76501AB5AED0009B8225 /* GNUMLogSystem */,
+				5DE52D281AB3533F00FCC04A /* AppDelegate.h */,
+				5DE52D291AB3533F00FCC04A /* AppDelegate.m */,
+				5DE52D311AB3533F00FCC04A /* ViewController.h */,
+				5DE52D321AB3533F00FCC04A /* ViewController.m */,
+				5DE52D341AB3533F00FCC04A /* Images.xcassets */,
+				5DE52D201AB3533F00FCC04A /* Supporting Files */,
+			);
+			path = CBLogSystemDemo;
+			sourceTree = "<group>";
+		};
+		5DE52D201AB3533F00FCC04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52D211AB3533F00FCC04A /* CBLogSystemDemo-Info.plist */,
+				5DE52D221AB3533F00FCC04A /* InfoPlist.strings */,
+				5DE52D251AB3533F00FCC04A /* main.m */,
+				5DE52D271AB3533F00FCC04A /* CBLogSystemDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DE52D411AB3534000FCC04A /* CBLogSystemDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52D471AB3534000FCC04A /* CBLogSystemDemoTests.m */,
+				5DE52D421AB3534000FCC04A /* Supporting Files */,
+			);
+			path = CBLogSystemDemoTests;
+			sourceTree = "<group>";
+		};
+		5DE52D421AB3534000FCC04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52D431AB3534000FCC04A /* CBLogSystemDemoTests-Info.plist */,
+				5DE52D441AB3534000FCC04A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE52D151AB3533F00FCC04A /* CBLogSystemDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE52D4B1AB3534000FCC04A /* Build configuration list for PBXNativeTarget "CBLogSystemDemo" */;
+			buildPhases = (
+				5DE52D121AB3533F00FCC04A /* Sources */,
+				5DE52D131AB3533F00FCC04A /* Frameworks */,
+				5DE52D141AB3533F00FCC04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBLogSystemDemo;
+			productName = CBLogSystemDemo;
+			productReference = 5DE52D161AB3533F00FCC04A /* CBLogSystemDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE52D391AB3534000FCC04A /* CBLogSystemDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE52D4E1AB3534000FCC04A /* Build configuration list for PBXNativeTarget "CBLogSystemDemoTests" */;
+			buildPhases = (
+				5DE52D361AB3534000FCC04A /* Sources */,
+				5DE52D371AB3534000FCC04A /* Frameworks */,
+				5DE52D381AB3534000FCC04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE52D401AB3534000FCC04A /* PBXTargetDependency */,
+			);
+			name = CBLogSystemDemoTests;
+			productName = CBLogSystemDemoTests;
+			productReference = 5DE52D3A1AB3534000FCC04A /* CBLogSystemDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE52D0E1AB3533F00FCC04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					5DE52D391AB3534000FCC04A = {
+						TestTargetID = 5DE52D151AB3533F00FCC04A;
+					};
+				};
+			};
+			buildConfigurationList = 5DE52D111AB3533F00FCC04A /* Build configuration list for PBXProject "CBLogSystemDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE52D0D1AB3533F00FCC04A;
+			productRefGroup = 5DE52D171AB3533F00FCC04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE52D151AB3533F00FCC04A /* CBLogSystemDemo */,
+				5DE52D391AB3534000FCC04A /* CBLogSystemDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE52D141AB3533F00FCC04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D351AB3533F00FCC04A /* Images.xcassets in Resources */,
+				5DE52D241AB3533F00FCC04A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE52D381AB3534000FCC04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D461AB3534000FCC04A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE52D121AB3533F00FCC04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D331AB3533F00FCC04A /* ViewController.m in Sources */,
+				5D6D766E1AB5AED0009B8225 /* GNUMLogStringImp.m in Sources */,
+				5D6D76701AB5AED0009B8225 /* GNUMLogViewController.m in Sources */,
+				5DE52D2A1AB3533F00FCC04A /* AppDelegate.m in Sources */,
+				5D6D76691AB5AED0009B8225 /* GNUMLocationMake.m in Sources */,
+				5D6D76681AB5AED0009B8225 /* GNUMInstanceFileOutputHandle.m in Sources */,
+				5D6D766D1AB5AED0009B8225 /* GNUMLogReviewViewController.m in Sources */,
+				5D6D76711AB5AED0009B8225 /* GNUMTeeController.m in Sources */,
+				5D6D766F1AB5AED0009B8225 /* GNUMLogSystem.m in Sources */,
+				5D6D766C1AB5AED0009B8225 /* GNUMLogCotroller.m in Sources */,
+				5DE52D261AB3533F00FCC04A /* main.m in Sources */,
+				5D6D766A1AB5AED0009B8225 /* GNUMLog.m in Sources */,
+				5D6D76721AB5AED0009B8225 /* NSObject+GNUMReverseComparison.m in Sources */,
+				5D6D766B1AB5AED0009B8225 /* GNUMLogCotroller+Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE52D361AB3534000FCC04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE52D481AB3534000FCC04A /* CBLogSystemDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE52D401AB3534000FCC04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE52D151AB3533F00FCC04A /* CBLogSystemDemo */;
+			targetProxy = 5DE52D3F1AB3534000FCC04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE52D221AB3533F00FCC04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE52D231AB3533F00FCC04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DE52D441AB3534000FCC04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE52D451AB3534000FCC04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE52D491AB3534000FCC04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE52D4A1AB3534000FCC04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE52D4C1AB3534000FCC04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBLogSystemDemo/CBLogSystemDemo-Prefix.pch";
+				INFOPLIST_FILE = "CBLogSystemDemo/CBLogSystemDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DE52D4D1AB3534000FCC04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBLogSystemDemo/CBLogSystemDemo-Prefix.pch";
+				INFOPLIST_FILE = "CBLogSystemDemo/CBLogSystemDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DE52D4F1AB3534000FCC04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBLogSystemDemo.app/CBLogSystemDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBLogSystemDemo/CBLogSystemDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CBLogSystemDemoTests/CBLogSystemDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5DE52D501AB3534000FCC04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CBLogSystemDemo.app/CBLogSystemDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CBLogSystemDemo/CBLogSystemDemo-Prefix.pch";
+				INFOPLIST_FILE = "CBLogSystemDemoTests/CBLogSystemDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE52D111AB3533F00FCC04A /* Build configuration list for PBXProject "CBLogSystemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE52D491AB3534000FCC04A /* Debug */,
+				5DE52D4A1AB3534000FCC04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE52D4B1AB3534000FCC04A /* Build configuration list for PBXNativeTarget "CBLogSystemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE52D4C1AB3534000FCC04A /* Debug */,
+				5DE52D4D1AB3534000FCC04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE52D4E1AB3534000FCC04A /* Build configuration list for PBXNativeTarget "CBLogSystemDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE52D4F1AB3534000FCC04A /* Debug */,
+				5DE52D501AB3534000FCC04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE52D0E1AB3533F00FCC04A /* Project object */;
+}
